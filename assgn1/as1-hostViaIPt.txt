@@ -1,0 +1,18 @@
+debian@smoradkh-beagle:/proc$ cat version
+Linux version 5.10.131-ti-r49 (voodoo@rpi4b4g-05) (gcc (Debian 10.2.1-6) 10.2.1 20210110, GNU ld (GNU Binutils for Debian) 2.35.2) #1bullseye SMP PREEMPT Tue Aug 30 20:34:58 UTC 2022
+debian@smoradkh-beagle:/proc$  cat uptime
+6445.99 6178.97
+debian@smoradkh-beagle:/proc$ cat cpuinfo
+processor    : 0
+model name    : ARMv7 Processor rev 2 (v7l)
+BogoMIPS    : 995.32
+Features    : half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpd32 
+CPU implementer    : 0x41
+CPU architecture: 7
+CPU variant    : 0x3
+CPU part    : 0xc08
+CPU revision    : 2
+
+Hardware    : Generic AM33XX (Flattened Device Tree)
+Revision    : 0000
+Serial        : BBG122061606
