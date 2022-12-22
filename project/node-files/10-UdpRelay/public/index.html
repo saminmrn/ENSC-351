@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<link rel='stylesheet' href='/stylesheets/style.css'></link>
+</head>
+
+<header>
+	<h1 class="header">GetFit</h1>
+</header>
+
+<body>
+	<div id='content'>
+		<div class="top">
+			<div class="hr-div">
+				<h2>BPM</h2>
+				<p id="heartrate" class="stat">initializing</p>
+			</div>
+
+			<div class="steps-div">
+				<h2>Steps</h2>
+				<p id="steps" class="stat">
+					0
+				</p>
+			</div>
+		</div>
+
+		<div class="mid">
+			<div class="statistics">
+				<h2>Personal Statistics</h2>
+				<div class="weight-box">
+					<p>calories burnt</p><br>
+					<p id="calories">input personal to display!</p>
+				</div>
+				<div class="height-box">
+					<p>distance walked km</p><br>
+					<p id="distance">input personal stats to display</p>
+				</div>
+			</div>
+			<div class="disclaimer">
+				<p>These results are calculated based off of provided height 
+					and weight statistics using national averages.</p>
+			</div>
+		</div>
+
+		<div class="low">
+			<button class="disp-but" id="displaySteps">display steps</button>
+			<button class="disp-but" id="displayHeartRate">display heartrate</button>
+			<button class="disp-but" id="setTimer">setTimer</button>
+			<button class="disp-but" id="displayStats">display personal stats</button>
+		</div>
+
+		<div class="set-stats">
+			<form id="calories-form">
+				<label for="height">Height (in cm): </label><br>
+				<input type="text" id="heightForm" name="height"><br>
+				<label for="weight">Weight (in kg): </label><br>
+				<input type="text" id="weightForm" name="height"><br>
+				<input type="button" id="submit" value="Submit">
+			</form>
+		</div>
+		
+	<script src='/socket.io/socket.io.js' type='text/javascript'></script>
+	<script src='http://code.jquery.com/jquery-1.8.0.min.js' type='text/javascript'></script>
+	<script src='javascripts/udp_ui.js' type='text/javascript'></script>
+</body>
+</html>

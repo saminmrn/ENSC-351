@@ -1,0 +1,80 @@
+.top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+body {
+	background-color: #EAFAFF;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p.stat {
+	font-size: 65px;
+}
+
+.hr-div, .steps-div {
+	padding: 10px;
+	border: 1px solid;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	width: 47.5%;
+	background-color: #8ACD9D;
+}
+
+.mid {
+	border: 1px solid;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	background-color: #8ACD9D;
+	display: flex;
+	justify-content: space-between;
+}
+
+.weight-box, .height-box {
+	display: flex;
+	padding: 5px 10px;
+}
+
+.low {
+	width: 100%;
+	background-color: #8ACD9D;
+	border: 1px solid;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	border-radius: 7px;
+}
+
+.set-stats {
+	background-color: #8ACD9D;
+	border: 1px solid;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	border-radius: 7px;
+}
+
+.disp-but {
+	padding: 50px 20px;
+	border-radius: 7px;
+	width: 100%;
+	max-width: 49%;
+	margin-top: 10px;
+	background-color: 
+}
+
+header {
+	padding: 28px 0px;
+  	background-color: #8ACD9D;
+}
+
+.header {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
